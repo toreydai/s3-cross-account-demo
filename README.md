@@ -12,7 +12,7 @@
             "Action": [
                 "s3:GetObject",
                 "s3:PutObject",
-                "s3:PutObjectAcl"，
+                "s3:PutObjectAcl",
                 "s3:ListBucket"
             ],
             "Resource": [
@@ -36,11 +36,11 @@
             "Action": [
                 "s3:GetObject",
                 "s3:PutObject",
-                "s3:PutObjectAcl"，
+                "s3:PutObjectAcl",
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws-cn:s3:::AccountABucketName"，
+                "arn:aws-cn:s3:::AccountABucketName",
                 "arn:aws-cn:s3:::AccountABucketName/*"
             ]
         }
